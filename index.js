@@ -10,7 +10,6 @@ app.use(cors());
 app.use(express.json());
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.axsuckb.mongodb.net/?retryWrites=true&w=majority`;
-console.log(uri);
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -19,15 +18,17 @@ const client = new MongoClient(uri, {
 
 const run = async () => {
   try {
-    const db = client.db("lifters_choice");
-    const productCollection = db.collection("products");
+    const db = client.db("readers_review");
+    const productCollection = db.collection("books");
 
-    app.get("/products", async (req, res) => {
+    // !Start- Get books*************
+    app.get("/books", async (req, res) => {
       const cursor = productCollection.find({});
-      const product = await cursor.toArray();
+      const books = await cursor.toArray();
 
-      res.send({ status: true, data: product });
+      res.send({ status: true, data: books });
     });
+    // !End- Get books*************
 
     app.post("/product", async (req, res) => {
       const product = req.body;

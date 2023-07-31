@@ -1,10 +1,170 @@
 [
- {
-  "title": "",
-  "author":"",
-  "genre": "",
-  "publication_data": "number",
-  "image": "",
-  "reviews": [] 
- }
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Fiction",
+    "publication_data": "1960",
+    "image": "https://cdn.britannica.com/21/182021-050-666DB6B1/book-cover-To-Kill-a-Mockingbird-many-1961.jpg",
+    "reviews": []
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Dystopian",
+    "publication_data": "1949",
+    "image": "https://static-01.daraz.com.bd/p/d8b2529b026b282f7c17d9613592da32.jpg",
+    "reviews": []
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "publication_data": "1997",
+    "image": "https://www.bookshare.org/cover/Vz/VzVkn9g-d2s3KxesIeDxyb986Kp78TZY6qooYP6RUmQ-MEDIUM.jpg",
+    "reviews": []
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Classic",
+    "publication_data": "1925",
+    "image": "https://m.media-amazon.com/images/I/71FTb9X6wsL._AC_UF1000,1000_QL80_.jpg",
+    "reviews": []
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Romance",
+    "publication_data": "1813",
+    "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781499806250/pride-and-prejudice-9781499806250_hr.jpg",
+    "reviews": []
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genre": "Fiction",
+    "publication_data": "1951",
+    "image": "https://www.savethecat.com/wp-content/uploads/2019/05/243a0ba33adbee20d3ed689fbf712ec8-jd-salinger-holden-caulfield.jpg",
+    "reviews": []
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "publication_data": "1954-1955",
+    "image": "https://m.media-amazon.com/images/I/71jLBXtWJWL._AC_UF1000,1000_QL80_.jpg",
+    "reviews": []
+  },
+  {
+    "title": "To the Lighthouse",
+    "author": "Virginia Woolf",
+    "genre": "Modernist",
+    "publication_data": "1927",
+    "image": "https://m.media-amazon.com/images/I/517Hf-iPmnL.jpg",
+    "reviews": []
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "genre": "Science Fiction",
+    "publication_data": "1932",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/BraveNewWorld_FirstEdition.jpg/220px-BraveNewWorld_FirstEdition.jpg",
+    "reviews": []
+  },
+  {
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "genre": "Adventure",
+    "publication_data": "1851",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a1/Moby_dick434.jpg",
+    "reviews": []
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "publication_data": "1937",
+    "image": "https://www.pluggedin.com/wp-content/uploads/2020/01/hobbit-cover.jpg",
+    "reviews": []
+  },
+  {
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "genre": "Gothic",
+    "publication_data": "1847",
+    "image": "https://m.media-amazon.com/images/I/91zU70Aw9IS._AC_UF894,1000_QL80_.jpg",
+    "reviews": []
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Fiction",
+    "publication_data": "1988",
+    "image": "https://m.media-amazon.com/images/I/51bVNTqHFlL._AC_UF1000,1000_QL80_.jpg",
+    "reviews": []
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "genre": "Gothic",
+    "publication_data": "1890",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdvIXO1kQX8RI7ttHPGxzmJF5pCYoUM3FF2w&usqp=CAU",
+    "reviews": []
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "genre": "Magical Realism",
+    "publication_data": "1967",
+    "image": "https://m.media-amazon.com/images/I/71IWwBoDNsL._AC_UF894,1000_QL80_.jpg",
+    "reviews": []
+  },
+  {
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "genre": "Dystopian",
+    "publication_data": "1953",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/db/Fahrenheit_451_1st_ed_cover.jpg",
+    "reviews": []
+  },
+  {
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "genre": "Dystopian",
+    "publication_data": "1985",
+    "image": "https://m.media-amazon.com/images/I/71mfL5OGNNL._AC_UF894,1000_QL80_.jpg",
+    "reviews": []
+  },
+  {
+    "title": "The Odyssey",
+    "author": "Homer",
+    "genre": "Epic Poetry",
+    "publication_data": "8th century BCE",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQrEILaMFJOdnob83MzYl_i9aWlabX2Oe5sw&usqp=CAU",
+    "reviews": []
+  },
+  {
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "genre": "Psychological Thriller",
+    "publication_data": "1866",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/4b/Crimeandpunishmentcover.png",
+    "reviews": []
+  },
+  {
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "genre": "Philosophical Fiction",
+    "publication_data": "1880",
+    "image": "https://m.media-amazon.com/images/I/71OZJsgZzQL._AC_UF1000,1000_QL80_.jpg",
+    "reviews": []
+  },{
+    "title": "The Chronicles of Narnia",
+    "author": "C.S. Lewis",
+    "genre": "Fantasy",
+    "publication_data": "1950-1956",
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/cb/The_Chronicles_of_Narnia_box_set_cover.jpg",
+    "reviews": []
+  }
+
 ]
