@@ -19,32 +19,39 @@ const client = new MongoClient(uri, {
 const run = async () => {
   try {
     const db = client.db("readers_review");
-    const productCollection = db.collection("books");
+    const bookCollection = db.collection("books");
 
     // !Start- Get books*************
     app.get("/books", async (req, res) => {
-      const cursor = productCollection.find({});
+      const cursor = bookCollection.find({}).sort({ _id: -1 });
       const books = await cursor.toArray();
 
       res.send({ status: true, data: books });
     });
     // !End- Get books*************
 
-    app.post("/product", async (req, res) => {
-      const product = req.body;
 
-      const result = await productCollection.insertOne(product);
+    //!Start of POST book
+    app.post("/books", async (req, res) => {
+      const books = req.body;
+
+      const result = await bookCollection.insertOne(books);
 
       res.send(result);
     });
 
-    app.get("/product/:id", async (req, res) => {
-      const id = req.params.id;
+    //!End of POST book
 
-      const result = await productCollection.findOne({ _id: ObjectId(id) });
+    //! Start of get single book detailed page
+    app.get("/books/:id", async (req, res) => {
+      const id = req.params.id;
+console.log(id);
+      const result = await bookCollection.findOne({ _id:new ObjectId(id) });
       console.log(result);
       res.send(result);
     });
+
+    //! End of get single book detailed page
 
     app.delete("/product/:id", async (req, res) => {
       const id = req.params.id;
