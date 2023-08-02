@@ -46,7 +46,7 @@ const run = async () => {
     app.get("/books/:id", async (req, res) => {
       const id = req.params.id;
 console.log(id);
-      const result = await bookCollection.findOne({ _id:new ObjectId(id) });
+      const result = await bookCollection.findOne({ _id:new ObjectId(id)});
       console.log(result);
       res.send(result);
     });

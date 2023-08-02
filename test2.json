@@ -1,0 +1,191 @@
+[
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Fiction",
+    "publication_data": "1960",
+    "image": "https://cdn.britannica.com/21/182021-050-666DB6B1/book-cover-To-Kill-a-Mockingbird-many-1961.jpg",
+    "reviews": [],
+    "summary": "To Kill a Mockingbird is a classic novel set in the racially charged Deep South during the 1930s. The story revolves around Scout Finch, her brother Jem, and their father, Atticus Finch, who defends a black man accused of raping a white woman. The book delves into themes of racial injustice, moral growth, and compassion."
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Dystopian",
+    "publication_data": "1949",
+    "image": "https://static-01.daraz.com.bd/p/d8b2529b026b282f7c17d9613592da32.jpg",
+    "reviews": [],
+    "summary": "1984 is a chilling portrayal of a totalitarian society where Big Brother exercises oppressive control over every aspect of people's lives. Winston Smith, a low-ranking member of the ruling Party, becomes rebellious and seeks to challenge the regime. The novel is a thought-provoking critique of surveillance, propaganda, and the loss of individuality."
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "publication_data": "1997",
+    "image": "https://www.bookshare.org/cover/Vz/VzVkn9g-d2s3KxesIeDxyb986Kp78TZY6qooYP6RUmQ-MEDIUM.jpg",
+    "reviews": [],
+    "summary": "The first book in the immensely popular Harry Potter series follows the journey of an orphaned boy, Harry, who discovers he is a wizard. He attends Hogwarts School of Witchcraft and Wizardry, where he makes friends, learns magic, and unravels the mysteries of his past. Harry Potter and the Sorcerer's Stone is a captivating tale of friendship, bravery, and the battle between good and evil."
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Classic",
+    "publication_data": "1925",
+    "image": "https://m.media-amazon.com/images/I/71FTb9X6wsL._AC_UF1000,1000_QL80_.jpg",
+    "reviews": [],
+    "summary": "Set in the Jazz Age of the 1920s, The Great Gatsby is a poignant story of Jay Gatsby's pursuit of wealth and love. Narrated by Nick Carraway, it explores themes of decadence, the American Dream, and the emptiness of the upper class. F. Scott Fitzgerald's masterful prose weaves a tale of tragic romance and societal critique."
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Romance",
+    "publication_data": "1813",
+    "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781499806250/pride-and-prejudice-9781499806250_hr.jpg",
+    "reviews": [],
+    "summary": "Pride and Prejudice follows the headstrong and intelligent Elizabeth Bennet as she navigates societal expectations and her feelings for the wealthy and enigmatic Mr. Darcy. Jane Austen's classic novel explores themes of love, marriage, and class, while also offering a keen observation of human nature and manners in 19th-century England."
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genre": "Fiction",
+    "publication_data": "1951",
+    "image": "https://www.savethecat.com/wp-content/uploads/2019/05/243a0ba33adbee20d3ed689fbf712ec8-jd-salinger-holden-caulfield.jpg",
+    "reviews": [],
+    "summary": "The Catcher in the Rye is a coming-of-age novel that follows Holden Caulfield, a disenchanted teenager expelled from boarding school. As he wanders through New York City, Holden confronts themes of alienation, identity, and the complexities of adulthood. J.D. Salinger's iconic portrayal of teenage angst continues to resonate with readers."
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "publication_data": "1954-1955",
+    "image": "https://m.media-amazon.com/images/I/71jLBXtWJWL._AC_UF1000,1000_QL80_.jpg",
+    "reviews": [],
+    "summary": "The Lord of the Rings is an epic fantasy trilogy that follows the quest to destroy the One Ring, a powerful artifact created by the dark lord Sauron. Frodo Baggins, along with a diverse fellowship, embarks on a dangerous journey to Mount Doom. J.R.R. Tolkien's intricate world-building and rich mythology make this series a timeless masterpiece."
+  },
+  {
+    "title": "To the Lighthouse",
+    "author": "Virginia Woolf",
+    "genre": "Modernist",
+    "publication_data": "1927",
+    "image": "https://m.media-amazon.com/images/I/517Hf-iPmnL.jpg",
+    "reviews": [],
+    "summary": "To the Lighthouse is a stream-of-consciousness novel that explores the complex inner lives of the Ramsay family and their guests during visits to the Isle of Skye. Virginia Woolf's experimental writing style delves into memory, time, and the nature of human relationships, making it a landmark of modernist literature."
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "genre": "Science Fiction",
+    "publication_data": "1932",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/BraveNewWorld_FirstEdition.jpg/220px-BraveNewWorld_FirstEdition.jpg",
+    "reviews": [],
+    "summary": "In a futuristic world, Brave New World presents a society that maintains peace and stability through technological and social control. However, as the story unfolds, the facade of this utopian world is exposed, revealing the dark truths beneath the surface. Aldous Huxley's novel serves as a cautionary tale about the dangers of sacrificing individuality for societal harmony."
+  },
+  {
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "genre": "Adventure",
+    "publication_data": "1851",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a1/Moby_dick434.jpg",
+    "reviews": [],
+    "summary": "Moby-Dick is a literary masterpiece that follows the obsessive Captain Ahab's pursuit of the great white whale, Moby Dick. The novel explores themes of revenge, fate, and the human struggle against nature's indifference. Herman Melville's vivid descriptions and philosophical insights have secured its place as a timeless work of American literature."
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "publication_data": "1937",
+    "image": "https://www.pluggedin.com/wp-content/uploads/2020/01/hobbit-cover.jpg",
+    "reviews": [],
+    "summary": "The Hobbit is a charming fantasy tale that follows Bilbo Baggins, a hobbit who is unexpectedly swept into a quest to reclaim a treasure guarded by the dragon Smaug. Along the way, he encounters trolls, elves, and a mysterious creature named Gollum. J.R.R. Tolkien's enchanting storytelling laid the foundation for the epic world of Middle-earth."
+  },
+  {
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "genre": "Gothic",
+    "publication_data": "1847",
+    "image": "https://m.media-amazon.com/images/I/91zU70Aw9IS._AC_UF894,1000_QL80_.jpg",
+    "reviews": [],
+    "summary": "Jane Eyre is a classic Gothic novel that follows the eponymous heroine's journey from an orphaned and mistreated child to a strong and independent woman. Her life intertwines with the enigmatic Mr. Rochester, and their tumultuous romance is set against a backdrop of secrets and dark family history. Charlotte Brontë's novel remains a timeless exploration of love, morality, and identity."
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Fiction",
+    "publication_data": "1988",
+    "image": "https://m.media-amazon.com/images/I/51bVNTqHFlL._AC_UF1000,1000_QL80_.jpg",
+    "reviews": [],
+    "summary": "The Alchemist is a philosophical tale that follows Santiago, a young shepherd on a quest to find a hidden treasure. Along his journey, he encounters mystical characters and learns profound life lessons about following one's dreams and finding one's true purpose. Paulo Coelho's timeless narrative inspires readers to seek their own personal legends."
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "genre": "Gothic",
+    "publication_data": "1890",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdvIXO1kQX8RI7ttHPGxzmJF5pCYoUM3FF2w&usqp=CAU",
+    "reviews": [],
+    "summary": "In The Picture of Dorian Gray, a Faustian tale, the young and handsome Dorian Gray makes a wish that his portrait ages while he remains youthful. As he indulges in a life of hedonism and sin, the portrait becomes a grotesque reflection of his moral decay. Oscar Wilde's novel explores vanity, decadence, and the consequences of unchecked desires."
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "genre": "Magical Realism",
+    "publication_data": "1967",
+    "image": "https://m.media-amazon.com/images/I/71IWwBoDNsL._AC_UF894,1000_QL80_.jpg",
+    "reviews": [],
+    "summary": "One Hundred Years of Solitude is a mesmerizing tale that spans generations of the Buendía family in the fictional town of Macondo. Gabriel García Márquez's masterpiece weaves magical realism into a rich tapestry of love, war, politics, and the cyclical nature of history. The novel explores the human condition and the interplay between myth and reality."
+  },
+  {
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "genre": "Dystopian",
+    "publication_data": "1953",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/db/Fahrenheit_451_1st_ed_cover.jpg",
+    "reviews": [],
+    "summary": "Fahrenheit 451 is a dystopian novel set in a future society where books are banned, and firemen are tasked with burning any found. The story follows Guy Montag, a fireman who starts to question the oppressive regime and embarks on a journey of self-discovery and rebellion against conformity. Ray Bradbury's prescient work explores the importance of free thought and the dangers of censorship."
+  },
+  {
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "genre": "Dystopian",
+    "publication_data": "1985",
+    "image": "https://m.media-amazon.com/images/I/71mfL5OGNNL._AC_UF894,1000_QL80_.jpg",
+    "reviews": [],
+    "summary": "The Handmaid's Tale is a chilling dystopian novel set in the Republic of Gilead, a theocratic society where women's rights are severely restricted. Offred, a Handmaid, struggles to survive in this oppressive regime as she recalls her life before. Margaret Atwood's thought-provoking narrative explores themes of gender, power, and resistance against totalitarianism."
+  },
+  {
+    "title": "The Odyssey",
+    "author": "Homer",
+    "genre": "Epic Poetry",
+    "publication_data": "8th century BCE",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQrEILaMFJOdnob83MzYl_i9aWlabX2Oe5sw&usqp=CAU",
+    "reviews": [],
+    "summary": "The Odyssey is an ancient Greek epic poem attributed to the poet Homer. It recounts the adventures and hardships faced by Odysseus as he attempts to return home after the Trojan War. The epic is a timeless exploration of heroism, fate, and the triumph of the human spirit in the face of adversity."
+  },
+  {
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "genre": "Psychological Thriller",
+    "publication_data": "1866",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/4b/Crimeandpunishmentcover.png",
+    "reviews": [],
+    "summary": "Crime and Punishment follows the tormented Raskolnikov, who commits a brutal murder to prove his theory of extraordinary individuals' right to transgress conventional morality. As guilt consumes him, he wrestles with his conscience and faces the consequences of his actions. Fyodor Dostoevsky's psychological masterpiece delves into the complexities of human nature and the pursuit of redemption."
+  },
+  {
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "genre": "Philosophical Fiction",
+    "publication_data": "1880",
+    "image": "https://m.media-amazon.com/images/I/71OZJsgZzQL._AC_UF1000,1000_QL80_.jpg",
+    "reviews": [],
+    "summary": "The Brothers Karamazov is a profound exploration of family, faith, and morality. It follows the Karamazov brothers—Dmitri, Ivan, and Alyosha—and their complex relationships with each other and their father, Fyodor. Fyodor Dostoevsky's magnum opus delves into existential and religious questions, making it a philosophical and psychological tour de force."
+  },
+  {
+    "title": "The Chronicles of Narnia",
+    "author": "C.S. Lewis",
+    "genre": "Fantasy",
+    "publication_data": "1950-1956",
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/cb/The_Chronicles_of_Narnia_box_set_cover.jpg",
+    "reviews": [],
+    "summary": "The Chronicles of Narnia is a beloved fantasy series that follows the adventures of children who stumble upon the magical world of Narnia. The books explore themes of good versus evil, loyalty, and the power of imagination. C.S. Lewis's enchanting tales have captured the hearts of readers of all ages and continue to inspire new generations."
+  }
+]
