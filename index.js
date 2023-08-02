@@ -61,7 +61,7 @@ const run = async () => {
     // });
 
     // ! Start of POST review
-    app.post("/review/:id", async (req, res) => {
+    app.post("/reviews/:id", async (req, res) => {
       const bookId = req.params.id;
       const review = req.body.review;
 
@@ -89,7 +89,7 @@ const run = async () => {
 
     // !Start of GET review
 
-    app.get("/review/:id", async (req, res) => {
+    app.get("/reviews/:id", async (req, res) => {
       const bookId = req.params.id;
 
       const result = await bookCollection.findOne(
