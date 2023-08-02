@@ -30,7 +30,6 @@ const run = async () => {
     });
     // !End- Get books*************
 
-
     //!Start of POST book
     app.post("/books", async (req, res) => {
       const books = req.body;
@@ -45,38 +44,39 @@ const run = async () => {
     //! Start of get single book detailed page
     app.get("/books/:id", async (req, res) => {
       const id = req.params.id;
-console.log(id);
-      const result = await bookCollection.findOne({ _id:new ObjectId(id)});
+      console.log(id);
+      const result = await bookCollection.findOne({ _id: new ObjectId(id) });
       console.log(result);
       res.send(result);
     });
 
     //! End of get single book detailed page
 
-    app.delete("/product/:id", async (req, res) => {
-      const id = req.params.id;
+    // app.delete("/product/:id", async (req, res) => {
+    //   const id = req.params.id;
 
-      const result = await productCollection.deleteOne({ _id: ObjectId(id) });
-      console.log(result);
-      res.send(result);
-    });
+    //   const result = await productCollection.deleteOne({ _id: ObjectId(id) });
+    //   console.log(result);
+    //   res.send(result);
+    // });
 
-    app.post("/comment/:id", async (req, res) => {
-      const productId = req.params.id;
-      const comment = req.body.comment;
+    // ! Start of POST review
+    app.post("/review/:id", async (req, res) => {
+      const bookId = req.params.id;
+      const review = req.body.review;
 
-      console.log(productId);
-      console.log(comment);
+      console.log(bookId);
+      console.log(review);
 
-      const result = await productCollection.updateOne(
-        { _id: ObjectId(productId) },
-        { $push: { comments: comment } }
+      const result = await bookCollection.updateOne(
+        { _id: ObjectId(bookId) },
+        { $push: { reviews: review } }
       );
 
       console.log(result);
 
       if (result.modifiedCount !== 1) {
-        console.error("Product not found or comment not added");
+        console.error("Book not found or comment not added");
         res.json({ error: "Product not found or comment not added" });
         return;
       }
@@ -85,20 +85,26 @@ console.log(id);
       res.json({ message: "Comment added successfully" });
     });
 
-    app.get("/comment/:id", async (req, res) => {
-      const productId = req.params.id;
+    // ! End of POST review
 
-      const result = await productCollection.findOne(
-        { _id: ObjectId(productId) },
-        { projection: { _id: 0, comments: 1 } }
+    // !Start of GET review
+
+    app.get("/review/:id", async (req, res) => {
+      const bookId = req.params.id;
+
+      const result = await bookCollection.findOne(
+        { _id: new ObjectId(bookId) },
+        { projection: { _id: 0, reviews: 1 } }
       );
 
       if (result) {
         res.json(result);
       } else {
-        res.status(404).json({ error: "Product not found" });
+        res.status(404).json({ error: "Book not found" });
       }
     });
+
+    // !End of GET review
 
     app.post("/user", async (req, res) => {
       const user = req.body;
