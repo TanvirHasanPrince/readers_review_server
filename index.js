@@ -107,25 +107,25 @@ const run = async () => {
 
     // !End of GET review
 
-    app.post("/user", async (req, res) => {
-      const user = req.body;
+    // app.post("/user", async (req, res) => {
+    //   const user = req.body;
 
-      const result = await userCollection.insertOne(user);
+    //   const result = await userCollection.insertOne(user);
 
-      res.send(result);
-    });
+    //   res.send(result);
+    // });
 
-    app.get("/user/:email", async (req, res) => {
-      const email = req.params.email;
+    // app.get("/user/:email", async (req, res) => {
+    //   const email = req.params.email;
 
-      const result = await userCollection.findOne({ email });
+    //   const result = await userCollection.findOne({ email });
 
-      if (result?.email) {
-        return res.send({ status: true, data: result });
-      }
+    //   if (result?.email) {
+    //     return res.send({ status: true, data: result });
+    //   }
 
-      res.send({ status: false });
-    });
+    //   res.send({ status: false });
+    // });
   } finally {
   }
 };
