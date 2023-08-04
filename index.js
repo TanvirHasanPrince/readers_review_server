@@ -33,9 +33,10 @@ const run = async () => {
     //!Start of POST book
     app.post("/books", async (req, res) => {
       const books = req.body;
+      console.log(books);
 
       const result = await bookCollection.insertOne(books);
-
+      console.log("Received data:", books);
       res.send(result);
     });
 
@@ -69,7 +70,7 @@ const run = async () => {
       console.log(review);
 
       const result = await bookCollection.updateOne(
-        { _id: ObjectId(bookId) },
+        { _id: new ObjectId(bookId) },
         { $push: { reviews: review } }
       );
 
